@@ -23,7 +23,7 @@ namespace Task_8
             {
                 Console.WriteLine();
                 Console.WriteLine(folder + ":");
-                allFiles = Directory.GetFiles(folder, "*.*");
+                allFiles = Directory.GetFiles(folder,"*.*");
                 foreach (string file in allFiles)
                 {
                     Console.WriteLine(file);
